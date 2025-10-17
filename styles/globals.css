@@ -204,6 +204,7 @@
   --foreground: oklch(0.95 0.01 120);
   --card: oklch(0.18 0.02 150);
   --card-foreground: oklch(0.95 0.01 120);
+  --color-black: black;
   --popover: oklch(0.18 0.02 150);
   --popover-foreground: oklch(0.95 0.01 120);
   --primary: oklch(0.65 0.18 145);
@@ -406,4 +407,9 @@ textarea {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.container{
+ width: 100%;
+ padding: 0 100px;
 }

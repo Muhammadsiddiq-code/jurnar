@@ -28,6 +28,8 @@ export default function StudentLoginPage() {
   }
 
   return (
+    <div className="container">
+
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary via-secondary to-accent p-4">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -101,6 +103,8 @@ export default function StudentLoginPage() {
           </div>
         </div>
       </motion.div>
-    </div>
+      </div>
+          </div>
+
   )
 }
